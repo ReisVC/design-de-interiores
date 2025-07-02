@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background: linear-gradient(90deg, #02d5f0, rgb(3, 24, 146));
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 3vw;
+    padding: 20px;
+}
+
+header nav {
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(3, 24, 146);
+    padding: 15px;
+    font-family: 'Inter', normal, serif;
+    font-size: large;
+    font-weight: 900;
+}   
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+main {
+    height: 50vh;
+    background: linear-gradient(90deg, #02d5f0, rgb(3, 24, 146));
+}
+
+.hero {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero h2 {
+
+}
+
+.hero img {
+    margin-left: 80px;
+    height: 39vh;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.507);
+}
+
+.present {
+    width: 165px;
+    margin-top: 5PX;
+}
+
+.present * {
+    font-family: 'Inter', normal, serif;
+    color: white;   
+    margin-bottom: 10px;
+    text-shadow: 0px 5px 11px black;
+}
+
+.present h2 {
+    font-size: xx-large;
+}
+
+.present p {
+    font-size: large;
+    font-style: italic;
+}
+
+.projetos {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div-projetos {
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: -8px 7px 30px black;
+}
+
+.projetos img {
+    height: 36vh;
+    width: 25vw;
+    border: solid black 1px;
+}
+
+.projetos h2 {
+    font-family: 'Inter', normal, serif;
+    font-size: larger;
+    font-weight: 1000;
+    font-style: oblique;
+}
